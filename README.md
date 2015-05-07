@@ -1,5 +1,5 @@
 
-This testcase clips and line with a polygon and a box using boost::geometry.
+This testcase clips a line once with a polygon and another time with a box using boost::geometry.
 
 
 ### Setup
