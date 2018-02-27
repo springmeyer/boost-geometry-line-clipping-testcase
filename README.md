@@ -10,8 +10,9 @@ Type:
 make
 ```
 
+### Bug
 
-It results in:
+In some versions of boost::geometry this testcase results in:
 
 ```
 clipped via polygon:
@@ -20,4 +21,4 @@ clipped via box:
     LINESTRING(-20 0)
 ```
 
-Why would clipping by a box result in a degenerate line?
+This was fixed in https://github.com/boostorg/geometry/pull/329
